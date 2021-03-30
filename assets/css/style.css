@@ -19,7 +19,6 @@ body{
     position: fixed;
     top: 0;
     right: 0;
-    background-color: red;
 }
 /*---------menu Movil-------------*/
 .navMovil{
@@ -110,7 +109,7 @@ body{
     background-image: url("/assets/images/realstate.png") ;
 }
 .servicioChildcare{
-    background-image: url("/assets/images/niñera.png") ;
+    background-image: url("/assets/images/ninera.png") ;
 }
 .servicioVip{
     background-image: url("/assets/images/vip.png") ;
