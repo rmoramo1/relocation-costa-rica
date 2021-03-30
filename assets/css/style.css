@@ -1,0 +1,173 @@
+/*-----general----*/
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    color: #0F1A2C;
+}
+.btnGoTop{
+    font-size: 3rem;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    text-shadow: 0 0 5px #fff;
+}
+.btnGoTop a{
+    color: #0F1A2C;
+}
+.googleTS{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+/*---------menu Movil-------------*/
+.navMovil{
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #155372 2%,#10192c 100%);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    left: -100%;
+    z-index: 23;
+    padding-left: 15px;
+    position: fixed;
+    transition: all 1s ease;
+    box-shadow: 0 0 10px #000;
+}
+.navMovil a{
+    color: #fff;
+}
+/*-----parallax------*/
+#scene{
+    width: 100%;
+    height: 70vh;    
+    overflow: hidden;
+}
+.cielo,.volcan,.zacate,.arbol{
+    width: 110%;
+    height: 70vh;
+    background-image: url("../images/cielo_azul.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -5%!important;
+    top: -10%!important;
+    position: absolute;
+}
+.volcan{
+    background-image: url("../images/volcan2.png");
+    top: 10%!important;
+}
+.zacate{
+    background-image: url("../images/pasto2.png");
+    top: 5%!important;
+}
+.titleSlider{
+    width: 100%;
+    text-align: center;
+    font-size: 8vh;
+    color:#fff;
+    text-shadow: 0 0 10px #000;
+    margin-top: 10%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*--servicioIndex---*/
+.servicioInfo{
+    margin-top: 15%;
+}
+#servicioDetalle{
+    background-color: #382E21;
+}
+.servicioDetalle{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+.fondoEfecto{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color:#0F1A2C ;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.servicioBank,.servicioBusiness,.servicioHealt,.servicioRealState,.servicioChildcare,.servicioVip,.servicioLegal,.servicioMarketing{
+    background-image: url("/assets/images/bank.png") ;
+    min-height: 400px;
+}
+.servicioBusiness{
+    background-image: url("/assets/images/bussness.png") ;
+}
+.servicioHealt{
+    background-image: url("/assets/images/doctor.png") ;
+}
+.servicioRealState{
+    background-image: url("/assets/images/realstate.png") ;
+}
+.servicioChildcare{
+    background-image: url("/assets/images/niñera.png") ;
+}
+.servicioVip{
+    background-image: url("/assets/images/vip.png") ;
+}
+.servicioLegal{
+    background-image: url("/assets/images/legal.png") ;
+}
+.servicioMarketing{
+    background-image: url("/assets/images/marketing.png") ;
+}
+.servicioBank:hover .fondoEfecto{
+    opacity: 1;
+    width: 100%;
+}
+.servicioBusiness:hover .fondoEfecto{
+    opacity: 1;
+    width: 100%;
+}
+.servicioHealt:hover .fondoEfecto{
+    opacity: 1;
+    width: 100%;
+}
+.servicioRealState:hover .fondoEfecto{
+    opacity: 1;
+    width: 100%;
+}
+.servicioChildcare:hover .fondoEfecto{
+    opacity: 1;
+    width: 100%;
+}
+.servicioVip:hover .fondoEfecto{
+    opacity: 1;
+    width: 100%;
+}
+.servicioLegal:hover .fondoEfecto{
+    opacity: 1;
+    width: 100%;
+}
+.servicioMarketing:hover .fondoEfecto{
+    opacity: 1;
+    width: 100%;
+}
+
+
+/*--------------beneficios------*/
+.beneficios{
+    background-image: url("/assets/images/Playa-Tamarindo-Costa-Rica.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 25px #000;
+}
+.bgWhiteOp05{
+    background-color: rgba(255, 255, 255,.8);
+}
+
+/*----footer---*/
+.footer{
+    background-color: #0F1A2C;
+}
