@@ -15,9 +15,7 @@ formData = {
     'email': $('input[name=email]').val(),
     'subject': $('input[name=subject]').val(),
     'message': $('textarea[name=message]').val()
-};
-
-
+}
 $.ajax({
     url: "mail.php",
     type: "POST",
