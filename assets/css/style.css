@@ -17,8 +17,22 @@ body{
 }
 .googleTS{
     position: fixed;
-    top: 0;
+    bottom: 0;
     right: 0;
+}
+.displayXS{
+    height: 90vh;
+    width: 100%;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    background-image: url('../images/displayXS.png');
+    background-position: center;
+    background-size: cover;
+}
+.displayXS h1{
+    vertical-align: middle;
+    height: 100%;
+    padding-top: 50%;
 }
 /*---------menu Movil-------------*/
 .navMovil{
