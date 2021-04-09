@@ -23,3 +23,14 @@ body{
 .logos:hover img{
     transform: scale(1.1);
 }
+.btnBack{
+    position: fixed;
+    bottom: 45%;
+    right: 5%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #11192e;
+    color: #fff;
+    box-shadow: 0 0 5px #fff;
+    font-weight: bold;
+}
