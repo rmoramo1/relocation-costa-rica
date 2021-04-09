@@ -1,0 +1,25 @@
+body{
+    color:#11192e
+}
+.log{
+    position: absolute;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1021;
+    background: linear-gradient(to bottom, #3f4c6b 0%,#11192e 100%);
+}
+.title{
+    background: linear-gradient(to bottom, #3f4c6b 0%,#11192e 100%);
+    color: #fff;
+    padding: 3% 0;
+}
+.logos{
+    overflow: hidden;
+}
+.logos img{
+    transition: all .3s linear;
+}
+.logos:hover img{
+    transform: scale(1.1);
+}
